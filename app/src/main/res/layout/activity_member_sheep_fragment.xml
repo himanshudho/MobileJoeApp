@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.MemberSheepFragment">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="Curd "
+       android:typeface="monospace"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:visibility="gone"
+       android:textSize="18dp"
+       android:background="@drawable/blue_gradient_rect"
+       android:textColor="@color/black"
+       >
+
+   </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Arrived "
+
+
+      android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/inr199"
+        >
+    </Button>
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/offermy"
+        android:scaleType="fitXY"
+        android:id="@+id/flipper"
+        android:background="#A7FBA7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black">
+    </ViewFlipper>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer Discount"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+
+        android:id="@+id/inr299"
+        >
+    </Button>
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/offermy"
+        android:scaleType="fitXY"
+        android:id="@+id/flipper1"
+        android:background="#A7FBA7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black">
+    </ViewFlipper>
+
+
+
+    
+
+</LinearLayout>

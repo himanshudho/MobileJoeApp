@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:enabled="true"
+        android:checked="true"
+        android:iconTint="@color/green" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/person"
+        android:enabled="true"
+        android:title="Account" />
+    <item
+        android:id="@+id/navigation_gifts"
+
+        android:icon="@drawable/search"
+        android:enabled="true"
+        android:state_checked="false"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_history"
+        android:enabled="true"
+        android:title="Booking" />
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/membersheep"
+        android:title="Offer"
+        android:enabled="true"
+        />
+
+
+</menu>

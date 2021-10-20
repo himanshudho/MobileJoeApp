@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/men"
+        android:icon="@drawable/home"
+        android:title="Men Salon"
+        android:enabled="true"
+        android:checked="true"
+        android:iconTint="@color/green" />
+    <item
+        android:id="@+id/woman"
+        android:icon="@drawable/person"
+        android:enabled="true"
+        android:title="Woman Salon" />
+    <item
+        android:id="@+id/unisex"
+
+        android:icon="@drawable/search"
+        android:enabled="true"
+        android:state_checked="false"
+        android:title="Unisex Salon" />
+
+    <item
+        android:id="@+id/mekup"
+        android:icon="@drawable/ic_history"
+        android:enabled="true"
+        android:title="Mekup" />
+    <item
+        android:id="@+id/mehndi"
+        android:icon="@drawable/membersheep"
+        android:title="Mehndi design"
+        android:enabled="true"
+        />
+
+</menu>

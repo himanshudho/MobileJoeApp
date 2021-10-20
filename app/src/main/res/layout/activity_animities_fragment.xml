@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".unisex.ViewPagersUnisex.InformationFemaleFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/heair1"
+                android:id="@+id/iamgeview"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Address : 113,malhar,indore"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="FACILITIES WHICH YOU CAN USE"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="AC"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="CAR PARKING"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="BIKE PARKING"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="CARD ACCEPT"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="TAX"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="ONLINE PAY"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                >
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:text="TIMING : Daily 9:30AM -8:00PM"
+                android:paddingStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

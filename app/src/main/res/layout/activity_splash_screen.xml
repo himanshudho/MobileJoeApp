@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.tecmanic.goservices.SplashScreenActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/titletxt"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/wws"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+
+        android:gravity="center"
+      >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="WOW"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            android:textSize="33.3sp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="  NAA!"
+            android:textStyle="bold"
+            android:textColor="#FA0F9C"
+            android:textSize="33.3sp"
+            >
+        </TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titletxt"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_pro_display_light"
+        android:letterSpacing="0.0625"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:text="A Complete Beauty and Salon Service Provider"
+        android:textColor="#000000"
+        android:textSize="16.7sp" />
+
+    <com.agrawalsuneet.dotsloader.loaders.LinearDotsLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        app:loader_animDur="300"
+        app:loader_circleRadius="6dp"
+        app:loader_defaultColor="@color/grey"
+        app:loader_dotsDist="3dp"
+        app:loader_expandOnSelect="false"
+        app:loader_isSingleDir="false"
+        app:loader_noOfDots="6"
+        app:loader_selectedColor="@color/black"
+        app:loader_selectedRadius="10dp"
+        app:loader_showRunningShadow="true" />
+
+
+</RelativeLayout>

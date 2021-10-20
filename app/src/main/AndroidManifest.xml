@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tecmanic.goservices"
+    android:installLocation="auto">
+    <!--
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wws"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/wws"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PrivecyPolecy"></activity>
+        <activity android:name=".TermsAndCondition" />
+        <activity android:name=".ServiceInternal.Doorstep1" />
+        <activity android:name=".ServiceInternal.CategoryScreen1" />
+        <activity android:name=".ServiceInternal.FemaleSalonCategory" />
+        <activity android:name=".ServiceInternal.MaleSalonCategory" />
+        <activity android:name=".MaleBooking.MaleServiceScreen" />
+        <activity android:name=".unisex.ViewPagersUnisex.ServiceActivityFemale" />
+        <activity android:name=".ServiceArea" />
+        <activity android:name=".DoorStepScreen" />
+        <activity android:name=".ServiceScreen" />
+        <activity android:name=".CategoryScreeen" />
+        <activity android:name="com.tecmanic.MyBooking" />
+        <activity android:name="com.tecmanic.LinkOpenActivity" />
+        <activity android:name=".NotificationHiamanshu" />
+        <activity android:name=".CoinActivity" />
+        <activity android:name=".toprated.ToparetedSalon" />
+        <activity android:name=".FemaleBooking.Female2Fragment.FemalProfile" />
+        <activity android:name=".FemaleBooking.Female2Fragment.FemaleShoapProfile" />
+        <activity android:name=".MaleBooking.ViewPageers.Maleshoapprofile" />
+        <activity android:name=".unisex.ViewPagersUnisex.UnisexProfile" />
+        <activity android:name=".FemaleBooking.Female2Fragment.AnimitiesFemale2Fragment" />
+        <activity android:name=".FemaleBooking.Female2Fragment.InformationFemale2Fragment" />
+        <activity android:name=".FemaleBooking.Female2Fragment.ServiceFemale2Fragment" />
+        <activity android:name=".FemaleBooking.Female2ViewPadger" />
+        <activity android:name=".unisex.ViewPagersUnisex.AnimitiesFemaleFragment" />
+        <activity android:name=".unisex.ViewPagersUnisex.ServiceFemaleFragment" />
+        <activity android:name=".unisex.ViewPagersUnisex.InformationFemaleFragment" />
+        <activity android:name=".unisex.UnisexBookingViewPadger" />
+        <activity android:name=".MaleBooking.ViewPageers.AnimitiesFragment" />
+        <activity android:name=".MaleBooking.ViewPageers.ServiceFragment" />
+        <activity android:name=".MaleBooking.ViewPageers.InformationFragment" />
+        <activity android:name=".MaleBooking.MaleBookingViewpager" />
+        <activity android:name=".unisex.Unisex" />
+        <activity android:name=".FemaleBooking.AddFemale" />
+        <activity android:name=".FemaleBooking.FemaleBooking" />
+        <activity android:name=".MaleBooking.AddStyle" />
+        <activity android:name=".MaleBooking.MaleBooking" />
+        <activity android:name=".fragment.ProfileHImanshu" />
+        <activity android:name=".fragment.MemberSheepFragment" />
+        <activity android:name=".Cashback" />
+        <activity android:name=".Withdraw" />
+        <activity android:name=".FemaleSaloon" />
+        <activity android:name=".AllItem" />
+        <activity android:name=".MaleSallon" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".fragment.SearchFragment" />
+        <activity android:name=".OTPsignupActivity" />
+        <activity android:name=".PopularServicesActivity" />
+        <activity android:name=".LocationActivity1" />
+        <activity android:name=".Rating_review" />
+        <activity android:name=".Delivery_date_time" />
+        <activity android:name=".Add_on_Activity" />
+        <activity android:name=".Payment_order_activty" />
+        <activity android:name=".Reschdule_activity" />
+        <activity android:name=".Manage_address" />
+        <activity android:name=".BookingCancellationActivity" />
+        <activity android:name=".FaqlastActivity" />
+        <activity android:name=".FaqMiddleActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".TermsConditionActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".FAQmain_Activity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AddAddressmainActivity" />
+        <activity android:name=".PasswordResetActivity" />
+        <activity android:name=".ForgotPassActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WalkThroughActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".OTPActivity" />
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".SubCategoryActivity" />
+        <activity android:name=".WalkThroughActivity2" />
+        <activity android:name=".ServicesListActivity" />
+        <activity android:name=".ReviewRatingActivity" />
+        <activity android:name=".ServicesFullDetails" />
+        <activity android:name=".Cart_Activity" />
+        <activity android:name=".OffersActivity" />
+        <activity android:name=".SelectAddressActivity" />
+        <activity android:name=".EditAddressActivity" />
+        <activity android:name=".ScheduleTimeDateActivity" />
+        <activity android:name=".PaymentActivityy1" />
+        <activity android:name=".OrderSucessActivity" />
+        <activity android:name=".BridalMakupPaymentActivity" />
+        <activity android:name=".BridalMakupOrderSuccessActivity" />
+        <activity android:name=".AcSevenPaymentActivity" />
+        <activity android:name=".AcOrderSuccessActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".SearchingActivity" />
+        <activity android:name=".Razorpay" />
+        <activity android:name=".PayPal" />
+        <activity android:name=".ConfirmationActivity" />
+
+        <service android:name=".Extra.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_OjqPWNjTS6DCNH" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_api_key" />
+    </application>
+
+</manifest>
